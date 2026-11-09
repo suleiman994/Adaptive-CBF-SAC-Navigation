@@ -307,5 +307,5 @@ The animations depict **logged trajectories**, not Gazebo camera recording. The 
 
 The original Gazebo integration is under `src/gazebo_v31/`. The controller consumes `/scan` and `/odom` and publishes commands through `/cmd_vel`, using checkpoints from `checkpoints/` for learned modes. The repository records the experimental controller, **but a verified install-and-launch recipe on a fresh host has not yet been demonstrated**. Do not assume shell runners can be invoked unchanged without checking their ROS environment, working directories and launch arguments.
 
-**Physical TurtleBot3 operation:** the Gazebo bridge must first be adapted and validated against the robot's actual LiDAR mounting, time synchronization, actuator interface, emergency stop and independent collision monitoring. **Do not interpret this repository as a safety-approved real-robot launcher.**
+
 
