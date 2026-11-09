@@ -1,0 +1,61 @@
+{
+  "human_readable_name": "Crossing pedestrians",
+  "source_id": "R05",
+  "geometry_source": "completed_scenes/R05_two_crossers.json",
+  "world_source": "completed_scenes/R05_two_crossers.world",
+  "scene_definition": {
+    "name": "R05_two_crossers",
+    "group": "dynamic",
+    "room_half_extent": 4.9,
+    "start": [
+      -3.55,
+      0.05,
+      0
+    ],
+    "goal": [
+      3.55,
+      -0.05
+    ],
+    "obstacles": [],
+    "dynamic": [
+      {
+        "name": "ped_01",
+        "x": -0.8,
+        "y": 0.0,
+        "axis": "y",
+        "amplitude": 0.67,
+        "period_s": 32,
+        "phase": 0.25,
+        "radius": 0.2,
+        "visual": "stylized_humanoid",
+        "model_kind": "kinematic_scripted",
+        "max_speed_m_s": 0.13155
+      },
+      {
+        "name": "ped_02",
+        "x": 0.95,
+        "y": 0.0,
+        "axis": "y",
+        "amplitude": 0.66,
+        "period_s": 34,
+        "phase": 2.25,
+        "radius": 0.2,
+        "visual": "stylized_humanoid",
+        "model_kind": "kinematic_scripted",
+        "max_speed_m_s": 0.12197
+      }
+    ],
+    "description": "Two crossing pedestrians with identical reactive yield rule for all controllers",
+    "evaluation_status": "REVISED_AFTER_S8_INSPECTION_DEVELOPMENT_SCENE",
+    "ground_truth_is_policy_input": false,
+    "contact_measurement": "NOT_MEASURED",
+    "max_steps": 400,
+    "control_period_s": 0.2,
+    "center_clearance_threshold_m": 0.25,
+    "scene_version": "S9-2026-11-04-v2",
+    "goal_visual_marker": "VISUAL_ONLY_NO_COLLISION",
+    "start_visual_marker": "VISUAL_ONLY_NO_COLLISION",
+    "pedestrian_behavior": "reactive_yield_to_robot",
+    "ideal_static_path_m_approx": 7.083
+  }
+}

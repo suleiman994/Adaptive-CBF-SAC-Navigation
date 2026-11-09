@@ -1,0 +1,84 @@
+{
+  "human_readable_name": "Static spiral corridor (V2)",
+  "source_id": "R09",
+  "geometry_source": "completed_scenes/R09_spiral_corridor_static_v2.json",
+  "world_source": "completed_scenes/R09_spiral_corridor_static_v2.world",
+  "scene_definition": {
+    "name": "R09_spiral_corridor_static_v2",
+    "group": "structured",
+    "room_half_extent": 4.8,
+    "start": [
+      -2.5,
+      -2.48,
+      1.5707963267948966
+    ],
+    "goal": [
+      0.7,
+      0.0
+    ],
+    "obstacles": [
+      {
+        "type": "box",
+        "x": -3.1,
+        "y": 0.02499999999999991,
+        "width": 0.22,
+        "height": 6.47
+      },
+      {
+        "type": "box",
+        "x": 0.0,
+        "y": 3.15,
+        "width": 6.42,
+        "height": 0.22
+      },
+      {
+        "type": "box",
+        "x": 3.1,
+        "y": 0.625,
+        "width": 0.22,
+        "height": 5.27
+      },
+      {
+        "type": "box",
+        "x": 0.625,
+        "y": -1.9,
+        "width": 5.17,
+        "height": 0.22
+      },
+      {
+        "type": "box",
+        "x": -1.85,
+        "y": -0.02499999999999991,
+        "width": 0.22,
+        "height": 3.97
+      },
+      {
+        "type": "box",
+        "x": -0.125,
+        "y": 1.85,
+        "width": 3.6700000000000004,
+        "height": 0.22
+      },
+      {
+        "type": "box",
+        "x": 1.6,
+        "y": 0.755,
+        "width": 0.22,
+        "height": 2.41
+      }
+    ],
+    "dynamic": [],
+    "description": "Same start, goal, seven-wall spiral, no pedestrians; last inner-wall tip shortened by 0.36 m.",
+    "evaluation_status": "REVISED_DEVELOPMENT_AFTER_S9_RESULTS",
+    "ground_truth_is_policy_input": false,
+    "contact_measurement": "NOT_MEASURED",
+    "max_steps": 650,
+    "control_period_s": 0.2,
+    "center_clearance_threshold_m": 0.25,
+    "scene_version": "S9_DEV_V2_R09_LAST_INNER_OPENING_WIDENED_036M",
+    "goal_visual_marker": "VISUAL_ONLY_NO_COLLISION",
+    "start_visual_marker": "VISUAL_ONLY_NO_COLLISION",
+    "pedestrian_behavior": "none",
+    "ideal_static_path_m_approx": 13.797
+  }
+}

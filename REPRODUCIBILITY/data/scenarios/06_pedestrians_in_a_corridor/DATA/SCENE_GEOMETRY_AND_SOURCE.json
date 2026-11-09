@@ -1,0 +1,75 @@
+{
+  "human_readable_name": "Pedestrians in a corridor",
+  "source_id": "R06",
+  "geometry_source": "completed_scenes/R06_corridor_two_people.json",
+  "world_source": "completed_scenes/R06_corridor_two_people.world",
+  "scene_definition": {
+    "name": "R06_corridor_two_people",
+    "group": "dynamic",
+    "room_half_extent": 5.0,
+    "start": [
+      -3.8,
+      -0.1,
+      0.02
+    ],
+    "goal": [
+      3.8,
+      0.15
+    ],
+    "obstacles": [
+      {
+        "type": "box",
+        "x": 0,
+        "y": 1.33,
+        "width": 8.9,
+        "height": 0.26
+      },
+      {
+        "type": "box",
+        "x": 0,
+        "y": -1.33,
+        "width": 8.9,
+        "height": 0.26
+      }
+    ],
+    "dynamic": [
+      {
+        "name": "ped_01",
+        "x": -0.65,
+        "y": 0,
+        "axis": "y",
+        "amplitude": 0.54,
+        "period_s": 30,
+        "phase": 0.45,
+        "radius": 0.2,
+        "visual": "stylized_humanoid",
+        "model_kind": "kinematic_scripted",
+        "max_speed_m_s": 0.1131
+      },
+      {
+        "name": "ped_02",
+        "x": 1.15,
+        "y": 0.0,
+        "axis": "y",
+        "amplitude": 0.53,
+        "period_s": 34,
+        "phase": 2.0,
+        "radius": 0.2,
+        "visual": "stylized_humanoid",
+        "model_kind": "kinematic_scripted",
+        "max_speed_m_s": 0.09794
+      }
+    ],
+    "description": "Two scripted pedestrians sweep within a walled corridor",
+    "evaluation_status": "REVISED_AFTER_S8_INSPECTION_DEVELOPMENT_SCENE",
+    "ground_truth_is_policy_input": false,
+    "contact_measurement": "NOT_MEASURED",
+    "max_steps": 400,
+    "control_period_s": 0.2,
+    "center_clearance_threshold_m": 0.25,
+    "scene_version": "S9-2026-11-04-v2",
+    "goal_visual_marker": "VISUAL_ONLY_NO_COLLISION",
+    "start_visual_marker": "VISUAL_ONLY_NO_COLLISION",
+    "ideal_static_path_m_approx": 7.724
+  }
+}

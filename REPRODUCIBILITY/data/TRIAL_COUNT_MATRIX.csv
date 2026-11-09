@@ -1,0 +1,9 @@
+scenario_name,alpha_only,bias_only,fixed,full
+Alternating-baffle corridor,1,1,1,1
+Crossing pedestrians,1,1,1,1
+Dense static clutter,1,1,1,1
+Mixed static–dynamic clutter,1,1,1,1
+Offset-gate passage (V2),1,1,1,1
+Pedestrians in a corridor,1,1,1,1
+Sparse static obstacles,1,1,1,1
+Static spiral corridor (V2),1,1,1,1

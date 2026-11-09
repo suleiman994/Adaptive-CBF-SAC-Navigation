@@ -1,0 +1,18 @@
+% Source: REPRODUCIBILITY/data/PRIMARY_ABLATION_SUMMARY.csv
+% Only eight frozen layouts, checkpoint seed 41. Not a multiple-seed confidence claim.
+\begin{table}[t]
+\centering
+\caption{Descriptive ablation outcomes on eight development-inspected Gazebo layouts (checkpoint seed 41). Threshold-safe goals exclude recorded center-distance violations; physical contact was not measured.}
+\label{tab:v4_ablation_seed41}
+\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{lrrr}
+\toprule
+Controller & Goal & Safe-goal & Deadlock\\
+\midrule
+Fixed CBF & 2/8 & 2/8 & 6/8\\
+$\alpha$-only & 2/8 & 2/8 & 6/8\\
+Bias-only & 6/8 & 6/8 & 2/8\\
+Full adaptive & 8/8 & 7/8 & 0/8\\
+\bottomrule
+\end{tabular}
+\end{table}

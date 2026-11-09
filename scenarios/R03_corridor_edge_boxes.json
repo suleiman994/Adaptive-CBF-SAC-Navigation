@@ -1,0 +1,70 @@
+{
+  "name": "R03_corridor_edge_boxes",
+  "group": "structured",
+  "room_half_extent": 5.2,
+  "start": [
+    -4.15,
+    0,
+    0
+  ],
+  "goal": [
+    4.15,
+    0.1
+  ],
+  "obstacles": [
+    {
+      "type": "box",
+      "x": 0,
+      "y": 1.32,
+      "width": 9.3,
+      "height": 0.3
+    },
+    {
+      "type": "box",
+      "x": 0,
+      "y": -1.32,
+      "width": 9.3,
+      "height": 0.3
+    },
+    {
+      "type": "box",
+      "x": -2.55,
+      "y": 0.65,
+      "width": 0.56,
+      "height": 1.36
+    },
+    {
+      "type": "box",
+      "x": -0.85,
+      "y": -0.65,
+      "width": 0.61,
+      "height": 1.36
+    },
+    {
+      "type": "box",
+      "x": 0.9,
+      "y": 0.65,
+      "width": 0.58,
+      "height": 1.36
+    },
+    {
+      "type": "box",
+      "x": 2.65,
+      "y": -0.65,
+      "width": 0.6,
+      "height": 1.36
+    }
+  ],
+  "dynamic": [],
+  "description": "Corridor with four longer wall-attached rectangular boxes forming alternating slalom clearances",
+  "evaluation_status": "REVISED_AFTER_S8_INSPECTION_DEVELOPMENT_SCENE",
+  "ground_truth_is_policy_input": false,
+  "contact_measurement": "NOT_MEASURED",
+  "max_steps": 400,
+  "control_period_s": 0.2,
+  "center_clearance_threshold_m": 0.25,
+  "scene_version": "S9-2026-11-04-v2",
+  "goal_visual_marker": "VISUAL_ONLY_NO_COLLISION",
+  "start_visual_marker": "VISUAL_ONLY_NO_COLLISION",
+  "ideal_static_path_m_approx": 9.684
+}

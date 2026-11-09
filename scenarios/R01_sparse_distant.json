@@ -1,0 +1,54 @@
+{
+  "name": "R01_sparse_distant",
+  "group": "static",
+  "room_half_extent": 5.3,
+  "start": [
+    -3.7,
+    -3.0,
+    0.6
+  ],
+  "goal": [
+    3.35,
+    2.8
+  ],
+  "obstacles": [
+    {
+      "type": "circle",
+      "x": -2.3,
+      "y": 2.7,
+      "radius": 0.42
+    },
+    {
+      "type": "box",
+      "x": -1.0,
+      "y": -2.1,
+      "width": 0.65,
+      "height": 0.63
+    },
+    {
+      "type": "circle",
+      "x": 0.35,
+      "y": 2.25,
+      "radius": 0.39
+    },
+    {
+      "type": "box",
+      "x": 2.3,
+      "y": -2.5,
+      "width": 0.7,
+      "height": 0.6
+    }
+  ],
+  "dynamic": [],
+  "description": "Sparse distant static objects; start exactly matches legacy E01_open",
+  "evaluation_status": "REVISED_AFTER_S8_INSPECTION_DEVELOPMENT_SCENE",
+  "ground_truth_is_policy_input": false,
+  "contact_measurement": "NOT_MEASURED",
+  "max_steps": 400,
+  "control_period_s": 0.2,
+  "center_clearance_threshold_m": 0.25,
+  "scene_version": "S9-2026-11-04-v2",
+  "goal_visual_marker": "VISUAL_ONLY_NO_COLLISION",
+  "start_visual_marker": "VISUAL_ONLY_NO_COLLISION",
+  "ideal_static_path_m_approx": 9.502
+}

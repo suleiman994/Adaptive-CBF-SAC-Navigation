@@ -1,0 +1,34 @@
+INPUT: /mnt/data/00_V4_FROZEN_RESULTS.zip
+
+R01 fixed       goal       goal=1 safe=1 violation_steps=0 min_center=0.563578 source=FINAL_RESULTS_SEED41/R01/fixed/episodes/R01_sparse_distant/fixed_episode000_20261104T094607850696Z_summary.json
+R01 alpha_only  goal       goal=1 safe=1 violation_steps=0 min_center=0.563322 source=FINAL_RESULTS_SEED41/R01/alpha_only/episodes/R01_sparse_distant/alpha_only_episode000_20261104T094659849891Z_summary.json
+R01 bias_only   goal       goal=1 safe=1 violation_steps=0 min_center=0.563611 source=FINAL_RESULTS_SEED41/R01/bias_only/episodes/R01_sparse_distant/bias_only_episode000_20261104T094753524705Z_summary.json
+R01 full        goal       goal=1 safe=1 violation_steps=0 min_center=0.563405 source=FINAL_RESULTS_SEED41/R01/full/episodes/R01_sparse_distant/full_episode000_20261104T094846351764Z_summary.json
+R02 fixed       deadlock   goal=0 safe=0 violation_steps=20 min_center=0.246617 source=FINAL_RESULTS_SEED41/R02/fixed/episodes/R02_dense_static/fixed_episode000_20261104T094929566471Z_summary.json
+R02 alpha_only  deadlock   goal=0 safe=0 violation_steps=0 min_center=0.256998 source=FINAL_RESULTS_SEED41/R02/alpha_only/episodes/R02_dense_static/alpha_only_episode000_20261104T095014168125Z_summary.json
+R02 bias_only   goal       goal=1 safe=1 violation_steps=0 min_center=0.306408 source=FINAL_RESULTS_SEED41/R02/bias_only/episodes/R02_dense_static/bias_only_episode000_20261104T095119750214Z_summary.json
+R02 full        goal       goal=1 safe=1 violation_steps=0 min_center=0.297785 source=FINAL_RESULTS_SEED41/R02/full/episodes/R02_dense_static/full_episode000_20261104T095222977615Z_summary.json
+R03 fixed       deadlock   goal=0 safe=0 violation_steps=0 min_center=0.470226 source=FINAL_RESULTS_SEED41/R03/fixed/episodes/R03_corridor_edge_boxes/fixed_episode000_20261104T095243192102Z_summary.json
+R03 alpha_only  deadlock   goal=0 safe=0 violation_steps=0 min_center=0.470576 source=FINAL_RESULTS_SEED41/R03/alpha_only/episodes/R03_corridor_edge_boxes/alpha_only_episode000_20261104T095303889185Z_summary.json
+R03 bias_only   deadlock   goal=0 safe=0 violation_steps=0 min_center=0.314918 source=FINAL_RESULTS_SEED41/R03/bias_only/episodes/R03_corridor_edge_boxes/bias_only_episode000_20261104T095346673220Z_summary.json
+R03 full        goal       goal=1 safe=1 violation_steps=0 min_center=0.308232 source=FINAL_RESULTS_SEED41/R03/full/episodes/R03_corridor_edge_boxes/full_episode000_20261104T095445315050Z_summary.json
+R04 fixed       deadlock   goal=0 safe=0 violation_steps=0 min_center=0.434815 source=FINAL_RESULTS_SEED41/R04/episodes/R04_offset_gate_clearance_v2/fixed_episode000_20261104T151836136170Z_summary.json
+R04 alpha_only  deadlock   goal=0 safe=0 violation_steps=0 min_center=0.434655 source=FINAL_RESULTS_SEED41/R04/episodes/R04_offset_gate_clearance_v2/alpha_only_episode000_20261104T151912065253Z_summary.json
+R04 bias_only   goal       goal=1 safe=1 violation_steps=0 min_center=0.281071 source=FINAL_RESULTS_SEED41/R04/episodes/R04_offset_gate_clearance_v2/bias_only_episode000_20261104T152009883401Z_summary.json
+R04 full        goal       goal=1 safe=1 violation_steps=0 min_center=0.295956 source=FINAL_RESULTS_SEED41/R04/episodes/R04_offset_gate_clearance_v2/full_episode000_20261104T152108281952Z_summary.json
+R05 fixed       deadlock   goal=0 safe=0 violation_steps=17 min_center=0.246834 source=FINAL_RESULTS_SEED41/R05/fixed/episodes/R05_two_crossers/fixed_episode000_20261104T095802055253Z_summary.json
+R05 alpha_only  deadlock   goal=0 safe=0 violation_steps=0 min_center=0.265851 source=FINAL_RESULTS_SEED41/R05/alpha_only/episodes/R05_two_crossers/alpha_only_episode000_20261104T095844767430Z_summary.json
+R05 bias_only   goal       goal=1 safe=1 violation_steps=0 min_center=0.287757 source=FINAL_RESULTS_SEED41/R05/bias_only/episodes/R05_two_crossers/bias_only_episode000_20261104T095930715850Z_summary.json
+R05 full        goal       goal=1 safe=1 violation_steps=0 min_center=0.283407 source=FINAL_RESULTS_SEED41/R05/full/episodes/R05_two_crossers/full_episode000_20261104T100015926198Z_summary.json
+R06 fixed       goal       goal=1 safe=1 violation_steps=0 min_center=0.344982 source=FINAL_RESULTS_SEED41/R06/fixed/episodes/R06_corridor_two_people/fixed_episode000_20261104T100108356451Z_summary.json
+R06 alpha_only  goal       goal=1 safe=1 violation_steps=0 min_center=0.334898 source=FINAL_RESULTS_SEED41/R06/alpha_only/episodes/R06_corridor_two_people/alpha_only_episode000_20261104T100202260946Z_summary.json
+R06 bias_only   deadlock   goal=0 safe=0 violation_steps=28 min_center=0.148414 source=FINAL_RESULTS_SEED41/R06/bias_only/episodes/R06_corridor_two_people/bias_only_episode000_20261104T100244118206Z_summary.json
+R06 full        goal       goal=1 safe=1 violation_steps=0 min_center=0.326916 source=FINAL_RESULTS_SEED41/R06/full/episodes/R06_corridor_two_people/full_episode000_20261104T100336576212Z_summary.json
+R07 fixed       deadlock   goal=0 safe=0 violation_steps=0 min_center=0.254579 source=FINAL_RESULTS_SEED41/R07/fixed/episodes/R07_big_obstacles_five_people/fixed_episode000_20261104T100411211046Z_summary.json
+R07 alpha_only  deadlock   goal=0 safe=0 violation_steps=0 min_center=0.256152 source=FINAL_RESULTS_SEED41/R07/alpha_only/episodes/R07_big_obstacles_five_people/alpha_only_episode000_20261104T100449174245Z_summary.json
+R07 bias_only   goal       goal=1 safe=1 violation_steps=0 min_center=0.276732 source=FINAL_RESULTS_SEED41/R07/bias_only/episodes/R07_big_obstacles_five_people/bias_only_episode000_20261104T100612565507Z_summary.json
+R07 full        goal       goal=1 safe=0 violation_steps=6 min_center=0.247619 source=FINAL_RESULTS_SEED41/R07/full/episodes/R07_big_obstacles_five_people/full_episode000_20261104T100732952910Z_summary.json
+R09 fixed       deadlock   goal=0 safe=0 violation_steps=0 min_center=0.459033 source=FINAL_RESULTS_SEED41/R09/fixed/episodes/R09_spiral_corridor_static_v2/fixed_episode000_20261104T120941299260Z_summary.json
+R09 alpha_only  deadlock   goal=0 safe=0 violation_steps=0 min_center=0.459835 source=FINAL_RESULTS_SEED41/R09/alpha_only/episodes/R09_spiral_corridor_static_v2/alpha_only_episode000_20261104T121001949832Z_summary.json
+R09 bias_only   goal       goal=1 safe=1 violation_steps=0 min_center=0.307031 source=FINAL_RESULTS_SEED41/R09/bias_only/episodes/R09_spiral_corridor_static_v2/bias_only_episode000_20261104T121142248060Z_summary.json
+R09 full        goal       goal=1 safe=1 violation_steps=0 min_center=0.254200 source=FINAL_RESULTS_SEED41/R09/full/episodes/R09_spiral_corridor_static_v2/full_episode000_20261104T121308042208Z_summary.json

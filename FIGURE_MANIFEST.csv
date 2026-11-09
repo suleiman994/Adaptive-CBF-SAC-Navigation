@@ -1,0 +1,11 @@
+figure_or_group,placement,source_evidence,scientific_role,limitation
+Fig03_Eight_Frozen_Scenarios_REGENERATED.pdf,MAIN,8 × SCENE_GEOMETRY_AND_SOURCE.json,layout complexity and evaluation protocol,"nominal scripted pedestrian positions, not synchronized poses"
+Fig04_Frozen_Ablation_Summary.pdf,MAIN,EPISODE_METRICS_FROZEN_SEED41.csv,ablation goal/safe-goal/deadlock counts R1.14 R3.2 R4.3,only seed41; development-inspected layouts
+Fig05_R03_Paired_Trajectories.pdf,MAIN,"R03 STEPS_(4 modes).csv, R03 geometry",R03 deadlock vs completion case R1.12 R1.14,"a single paired case, not statistical causality"
+Fig06_Adaptive_Maps_Reproduced.pdf,MAIN,R01..R09 Full STEPS_full.csv (R08 absent),conditional adaptive action and steering gate R1.21,temporally correlated visited-state means
+Fig07_Executed_Velocities_and_Intervention.pdf,MAIN,R09 Full STEPS_full.csv + episode metrics,velocity profiles and command intervention R1.15,no separated QP vs rollout postprocessing in old logs
+Fig08_R07_Safety_Limitations_REPRODUCED.pdf,MAIN,R07 Full STEPS_full.csv + geometry,threshold-margin violation and limitations R1.17 R3.6,physical contact not measured
+Fig05_R06_Paired_Trajectories.pdf,SUPPLEMENTARY,R06 all modes STEPS.csv,bias-only deadlock example vs other controller successes,single scenario illustration
+S1.png through S9.png,SUPPLEMENTARY,user-supplied Gazebo screenshot images,visual environment documentation,"S9 D05 exploratory, not frozen eight"
+D05_DYNAMIC_INTERSECTION_ARCHIVE,EXPLORATORY_HOLD,selected and excluded prior full-run logs,dynamic six-pedestrian stress case,"Full retry selection; 54 threshold violations, prior Full failed"
+Mohammad--Bezzo adaptation,BENCHMARK_DEV_ONLY,DEVELOPMENT CSV + paper-vs-ours protocol,potential fair baseline R1.13,not valid for numerical comparison in current manuscript

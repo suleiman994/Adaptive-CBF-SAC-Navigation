@@ -1,0 +1,12 @@
+reviewer_request,analysis_component,deliverable,remaining_gap
+"Reviewer 1, C12; Reviewer 3, C4",Scenario geometry atlas and exact scene labels,FIG01; per-scenario 01_ablation_trajectories,Unseen generalization and R08 still require independent verification
+"Reviewer 1, C14; Reviewer 3, C2; Reviewer 4, C3",Component ablation,"FIG02, FIG03, TABLE_MAIN_ABLATION.tex",Full vs bias incremental effect is 2/8 in Seed41; attribution conditional
+"Reviewer 1, C15","Executed velocities, filter intervention",per-scenario 03_full_controller_profiles; 04_clearance_and_intervention; FIG05,Check ROS/Gazebo logging time semantics and temporal alignment
+"Reviewer 1, C16; Reviewer 2, C2; Reviewer 4, C4",Checkpoint and metric definitions,METRIC_DEFINITIONS.md; provenance audit,"Seed42/43 trained, not evaluated here; baseline architecture from source"
+"Reviewer 1, C17; Reviewer 2, C1; Reviewer 1, C20",Clearance and collision detection,FIG06 R07 threshold violations,Physical contacts not measured: DO NOT claim collision-free
+"Reviewer 1, C21","Consolidate plots, parameter heatmap interpretation",FIG04 and supplemental coverage; per-scenario folders,No evaluation rewards as proof of training convergence
+"Reviewer 1, C5; Reviewer 3, C3",One-step LiDAR approximation error,NOT AVAILABLE,Requires logged predicted and subsequently measured clearance aligned at consecutive steps
+"Reviewer 1, C9",Reward sensitivity experiment,NOT AVAILABLE,Requires controlled reward ablation / retraining
+"Reviewer 1, C13",Competitive RL-CBF baselines and RL-only fairness,NOT AVAILABLE,Independent fair baseline under matched observation/action/reward/control
+"Reviewer 1, C18; Reviewer 3, C5",Repeated real robot trials,NOT AVAILABLE,Physical repeats and independent contact validation needed
+"Reviewer 1, C8",Formal safety claim / discrete time proof,NOT SUPPLIED BY FIGURES,"Need mathematical/source audit of slack, approximation, timing"

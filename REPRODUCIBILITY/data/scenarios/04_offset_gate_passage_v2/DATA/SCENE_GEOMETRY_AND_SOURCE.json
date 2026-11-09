@@ -1,0 +1,122 @@
+{
+  "human_readable_name": "Offset-gate passage (V2)",
+  "source_id": "R04",
+  "geometry_source": "FINAL_RESULTS_SEED41/R04/protocol/R04_offset_gate_clearance_v2.json",
+  "world_source": "FINAL_RESULTS_SEED41/R04/protocol/R04_offset_gate_clearance_v2.world",
+  "scene_definition": {
+    "name": "R04_offset_gate_clearance_v2",
+    "group": "structured",
+    "room_half_extent": 5.5,
+    "start": [
+      -4.35,
+      -1.5,
+      0.15
+    ],
+    "goal": [
+      4.3,
+      2.05
+    ],
+    "obstacles": [
+      {
+        "type": "box",
+        "x": 0,
+        "y": -2.575,
+        "width": 0.3,
+        "height": 5.85
+      },
+      {
+        "type": "box",
+        "x": 0,
+        "y": 3.575,
+        "width": 0.3,
+        "height": 3.85
+      },
+      {
+        "type": "box",
+        "x": 1.6,
+        "y": 1.18,
+        "width": 0.68,
+        "height": 0.73
+      },
+      {
+        "type": "circle",
+        "x": 1.2,
+        "y": -2.7,
+        "radius": 0.45
+      },
+      {
+        "type": "box",
+        "x": 1.15,
+        "y": 3.35,
+        "width": 0.7,
+        "height": 0.75
+      },
+      {
+        "type": "box",
+        "x": 2.05,
+        "y": -0.9,
+        "width": 0.78,
+        "height": 0.74
+      },
+      {
+        "type": "circle",
+        "x": 2.2,
+        "y": 2.65,
+        "radius": 0.43
+      },
+      {
+        "type": "circle",
+        "x": 3.0,
+        "y": 0.2,
+        "radius": 0.43
+      },
+      {
+        "type": "box",
+        "x": 3.15,
+        "y": -3.0,
+        "width": 0.72,
+        "height": 0.68
+      },
+      {
+        "type": "circle",
+        "x": 4.0,
+        "y": -1.2,
+        "radius": 0.38
+      },
+      {
+        "type": "box",
+        "x": 4.25,
+        "y": 3.4,
+        "width": 0.7,
+        "height": 0.72
+      }
+    ],
+    "dynamic": [],
+    "description": "Single offset gate; post-gate box obs_02 shifted +0.43m x, +0.16m y for maneuvering space. Other geometry, start/goal and policy settings unchanged.",
+    "evaluation_status": "DEVELOPMENT_GEOMETRY_REVISED_AFTER_INSPECTION_NOT_BLIND_HOLDOUT",
+    "ground_truth_is_policy_input": false,
+    "contact_measurement": "NOT_MEASURED",
+    "max_steps": 400,
+    "control_period_s": 0.2,
+    "center_clearance_threshold_m": 0.25,
+    "scene_version": "S9-R04-geometry-v2-2026-11-04",
+    "goal_visual_marker": "VISUAL_ONLY_NO_COLLISION",
+    "start_visual_marker": "VISUAL_ONLY_NO_COLLISION",
+    "ideal_static_path_m_approx": 10.15,
+    "revision_delta": {
+      "obstacle_name": "obs_02",
+      "old_xy_m": [
+        1.17,
+        1.02
+      ],
+      "new_xy_m": [
+        1.6,
+        1.18
+      ],
+      "gate_aperture_unchanged": true,
+      "start_goal_unchanged": true,
+      "other_obstacles_unchanged": true
+    },
+    "original_scene_ref": "R04_one_offset_gate_dense"
+  }
+}

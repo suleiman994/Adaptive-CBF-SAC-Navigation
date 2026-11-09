@@ -1,0 +1,141 @@
+{
+  "name": "R07_big_obstacles_five_people",
+  "group": "dynamic",
+  "room_half_extent": 6.1,
+  "start": [
+    -4.5,
+    -3.3,
+    0.52
+  ],
+  "goal": [
+    4.55,
+    3.35
+  ],
+  "obstacles": [
+    {
+      "type": "box",
+      "x": -3.2,
+      "y": 1.85,
+      "width": 1.3,
+      "height": 1.12
+    },
+    {
+      "type": "box",
+      "x": -2.6,
+      "y": -1.45,
+      "width": 1.05,
+      "height": 1.1
+    },
+    {
+      "type": "box",
+      "x": -0.8,
+      "y": 3.2,
+      "width": 1.2,
+      "height": 1.25
+    },
+    {
+      "type": "box",
+      "x": 1.45,
+      "y": -2.95,
+      "width": 1.35,
+      "height": 1.0
+    },
+    {
+      "type": "box",
+      "x": 3.1,
+      "y": 1.1,
+      "width": 1.3,
+      "height": 1.3
+    },
+    {
+      "type": "circle",
+      "x": 0.9,
+      "y": 2.4,
+      "radius": 0.52
+    },
+    {
+      "type": "circle",
+      "x": 3.55,
+      "y": -2.45,
+      "radius": 0.5
+    }
+  ],
+  "dynamic": [
+    {
+      "name": "ped_01",
+      "x": -4.4,
+      "y": 0.35,
+      "axis": "y",
+      "amplitude": 0.42,
+      "period_s": 29,
+      "phase": 0.4,
+      "radius": 0.2,
+      "visual": "stylized_humanoid",
+      "model_kind": "kinematic_scripted",
+      "max_speed_m_s": 0.091
+    },
+    {
+      "name": "ped_02",
+      "x": -1.4,
+      "y": 0.15,
+      "axis": "y",
+      "amplitude": 0.45,
+      "period_s": 31,
+      "phase": 1.3,
+      "radius": 0.2,
+      "visual": "stylized_humanoid",
+      "model_kind": "kinematic_scripted",
+      "max_speed_m_s": 0.09121
+    },
+    {
+      "name": "ped_03",
+      "x": 0.15,
+      "y": -1.2,
+      "axis": "x",
+      "amplitude": 0.43,
+      "period_s": 32,
+      "phase": 2.4,
+      "radius": 0.2,
+      "visual": "stylized_humanoid",
+      "model_kind": "kinematic_scripted",
+      "max_speed_m_s": 0.08443
+    },
+    {
+      "name": "ped_04",
+      "x": 2.0,
+      "y": -0.3,
+      "axis": "y",
+      "amplitude": 0.44,
+      "period_s": 30,
+      "phase": 1.0,
+      "radius": 0.2,
+      "visual": "stylized_humanoid",
+      "model_kind": "kinematic_scripted",
+      "max_speed_m_s": 0.09215
+    },
+    {
+      "name": "ped_05",
+      "x": 4.2,
+      "y": 2.2,
+      "axis": "y",
+      "amplitude": 0.4,
+      "period_s": 34,
+      "phase": 2.6,
+      "radius": 0.2,
+      "visual": "stylized_humanoid",
+      "model_kind": "kinematic_scripted",
+      "max_speed_m_s": 0.07392
+    }
+  ],
+  "description": "Seven large static objects and five scripted moving people",
+  "evaluation_status": "REVISED_AFTER_S8_INSPECTION_DEVELOPMENT_SCENE",
+  "ground_truth_is_policy_input": false,
+  "contact_measurement": "NOT_MEASURED",
+  "max_steps": 400,
+  "control_period_s": 0.2,
+  "center_clearance_threshold_m": 0.25,
+  "scene_version": "S9-2026-11-04-v2",
+  "goal_visual_marker": "VISUAL_ONLY_NO_COLLISION",
+  "start_visual_marker": "VISUAL_ONLY_NO_COLLISION",
+  "ideal_static_path_m_approx": 11.91
+}
