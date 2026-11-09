@@ -1,9 +1,5 @@
 # Adaptive CBF–SAC Navigation for Mobile Robots
 
-This repository contains the research software, trained SAC policies, Gazebo scenario definitions, frozen experimental records, figure-generation utilities, and audit information used to study **what changes when barrier-gain adaptation and obstacle-conditioned steering are learned jointly rather than individually**.
-
-> **Scope:** This is a **research simulator and simulation-evidence repository**, not a plug-and-play or safety-certified physical-robot package. The mathematics is conditional; recorded LiDAR/model-state clearance thresholds are not independent physical collision measurements.
-
 ## Contents
 
 - [Method and control flow](#method-and-control-flow)
