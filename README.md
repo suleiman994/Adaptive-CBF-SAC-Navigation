@@ -322,26 +322,3 @@ The original Gazebo integration is under `src/gazebo_v31/`. The controller consu
 
 **Physical TurtleBot3 operation:** the Gazebo bridge must first be adapted and validated against the robot's actual LiDAR mounting, time synchronization, actuator interface, emergency stop and independent collision monitoring. **Do not interpret this repository as a safety-approved real-robot launcher.**
 
----
-
-## Experimental scope and limitations
-
-1. The primary cohort consists of **eight development-inspected geometries × four controller configurations = 32 executions**. It is neither a strictly blind benchmark nor 32 independent training seeds.
-2. The separate 144-record assessment is **12 layouts × four configurations × three seed labels**. The repeated layouts and shared configurations imply statistical dependence; three trained seeds do not support a strong population-level generalization claim.
-3. A recorded center-to-obstacle-surface threshold is **not a physics contact detector**, footprint certificate or universal safety guarantee. The eight-layout Joint-adaptive result is **8/8 goals, 7/8 with the sampled 0.25 m margin respected**.
-4. Moving-obstacle velocities are not estimated by the online selected-point CBF representation. Dynamic encounters, point switching, odometry mismatch, post-QP adjustment and finite sampling limit the mathematical implications.
-5. A separately implemented, **engineering-adapted Mohammad–Bezzo-inspired SAC–MPC comparator** was used in development. Its solver, platform, training and clearance convention differ from the published method; several executions terminated with implementation errors. It is **not a validated method-parity reproduction** and is not claimed as such here.
-6. The six-pedestrian intersection is **exploratory**, with a disclosed unsuccessful prior Joint-adaptive execution and a selected successful retry. It is **not an additional independent primary-layout success**.
-7. Intermediate QP KKT residual distributions, independently verified contact events, full reward-weight sensitivity and uniform prediction-error bounds are **not established by the frozen files**. Definitions of such quantities must not be misrepresented as measured verification.
-
----
-
-## Citation and provenance
-
-If you use the research method, please cite the associated manuscript once its final bibliographic metadata are available:
-
-> S. Diabat, L. Ambroziak, and E. Pawluszewicz, *Adaptive CBF-SAC Navigation for Mobile Robots With LiDAR-Based Safety Filtering*, manuscript submitted to **Mechatronics**. (Publication details to be added after acceptance.)
-
-**Data provenance:** Research scripts and the eight-layout evidence were audited against source files and SHA-256/checkpoint manifests. The three animated visualizations provided in this README were reconstructed from those frozen episode CSVs and geometry files; the included `docs/animation_sources/` subset allows their regeneration. **Do not alter the frozen experimental records in place.**
-
-**Reuse and licensing:** No open-source redistribution license is granted by this README alone. Any public repository release should first be approved by the authors and checked for third-party software licenses, authentication tokens, and private paths embedded in logs. The adapted comparator must not be presented as the original authors' released code.
