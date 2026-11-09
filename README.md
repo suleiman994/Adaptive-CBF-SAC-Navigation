@@ -19,9 +19,6 @@ This repository contains the research software, trained SAC policies, Gazebo sce
 - [Learned-policy and safety diagnostics](#learned-policy-and-safety-diagnostics)
 - [Software stack and repository contents](#software-stack-and-repository-contents)
 - [Reproducing available results](#reproducing-available-results)
-- [Experimental scope and limitations](#experimental-scope-and-limitations)
-- [Citation and provenance](#citation-and-provenance)
-
 ---
 
 ## Method and control flow
