@@ -1,6 +1,5 @@
-# Adaptive CBF-SAC navigation V4 — research artifacts (draft)
+# Adaptive CBF-SAC navigation
 
-**Status: PRE-PUBLICATION DRAFT.** This release package is drawn from a frozen controller source snapshot and the eight-scenario Seed41 Gazebo evidence. It is not the manuscript's final multi-seed benchmark. All files need the authors' release approval.
 
 ## Included evidence
 
