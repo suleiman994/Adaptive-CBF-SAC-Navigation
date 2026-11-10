@@ -271,17 +271,6 @@ There are **nine SAC checkpoints** (Gain-only, Steering-only, Joint-adaptive × 
 
 ---
 
-## Reproducing available results
-
-### 1. Clone and inspect
-
-```bash
-# Replace with the actual GitHub owner/repository URL.
-git clone https://github.com/OWNER/Adaptive-CBF-SAC-Navigation.git
-cd Adaptive-CBF-SAC-Navigation
-```
-
-Private repositories require explicit collaborator access. `OWNER` is a placeholder.
 
 ### 2. Recreate available figures and verify records
 
